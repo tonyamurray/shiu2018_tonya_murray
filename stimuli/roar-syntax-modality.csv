@@ -1,0 +1,125 @@
+source,block_index,task,audio_file,prompt,orig_item_num,trial_type,item,answer,response_alternatives,assessment_stage,chance_level,item_id,notes,time_limit
+Murray,1,TROG,practice1,none,listen-practice-1,practice, ,Correct,"Not Sure, Incorrect",practice_response,0.33,practice-listen-1,The grammar of this sentence is good.,
+Murray,1,TROG,practice2,none,listen-practice-2,practice, ,Incorrect,"Not Sure, Correct",practice_response,0.33,practice-listen-2,The grammar of this sentence are bad.,
+Murray,1,TROG,progintro7u,none,listen-1,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-intro-7-u,"After the rain stopped, the kids swimming in the small pond.",NA
+Murray,1,TROG,passpast7,none,listen-2,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-past-7,The play was performed by actors on the main stage.,NA
+Murray,1,TROG,distsimp3,none,listen-3,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-distsimp3,My cousin will carve a figure from a block of wood.,NA
+Murray,1,TROG,passpast6,none,listen-4,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-past-6,The car was driven too fast by a careless teenager.,NA
+Murray,1,TROG,passfut3u,none,listen-5,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-fut-3-u,The cars will repaired by skilled workers in the afternoon.,NA
+Murray,1,TROG,progsimp2,none,listen-6,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-simp-2,The children were finding shells on the beach all afternoon.,NA
+Murray,1,TROG,distsimp2u,none,listen-7,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-distsimp2u,She will lifts the basket full of fresh apples.,NA
+Murray,1,TROG,progsimp3,none,listen-8,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-simp-3,The elders were telling the story near the glowing fire.,NA
+Murray,1,TROG,progmid5u,none,listen-9,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-mid-5-u,He sang out loud while they are clapping to the steady beat.,NA
+Murray,1,TROG,distsub3,none,listen-10,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-distsub3,They shut the gate after the dog ran into the yard.,NA
+Murray,1,TROG,progintro1,none,listen-11,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-intro-1,"When the actors finished, the audience was cheering loudly.",NA
+Murray,1,TROG,progintro2,none,listen-12,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-intro-2,"After the sun rose, the builders were finishing the house.",NA
+Murray,1,TROG,progintro3,none,listen-13,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-intro-3,"When the package arrived, she was speaking to her friend.",NA
+Murray,1,TROG,passfut5,none,listen-14,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-fut-5,The gifts will be given to the children tomorrow.,NA
+Murray,1,TROG,progsimp8u,none,listen-15,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-simp-8-u,The children reading their books beneath the shady trees.,NA
+Murray,1,TROG,progintro4,none,listen-16,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-intro-4,"After the professor explained, the students were taking careful notes.",NA
+Murray,1,TROG,passpast1u,none,listen-17,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-past-1-u,The rules were follow by everyone in the classroom.,NA
+Murray,1,TROG,progintro5u,none,listen-18,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-intro-5-u,"After the storm passed, the workers are beginning the bridge nearby.",NA
+Murray,1,TROG,progmid3,none,listen-19,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-mid-3,The kids played inside while she was sewing patches on the coat.,NA
+Murray,1,TROG,passfut8,none,listen-20,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-fut-8,The clothes will be washed by machines with extra soap and water.,NA
+Murray,1,TROG,distsimp1,none,listen-21,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-distsimp1,I catch small birds near the wooden fence.,NA
+Murray,1,TROG,passfut7,none,listen-22,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-fut-7,The news will be reported by hosts on the evening show.,NA
+Murray,1,TROG,progsimp4,none,listen-23,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-simp-4,The neighbors were walking their dogs along the quiet path.,NA
+Murray,1,TROG,passpres3u,none,listen-24,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-pres-3-u,The windows are clean by workers every afternoon.,NA
+Murray,1,TROG,progmid4,none,listen-25,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-mid-4,The cat hid under the couch while we were waiting for the storm.,NA
+Murray,1,TROG,distsub4,none,listen-26,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-distsub4,She tied the ropes that held the small boat at the dock.,NA
+Murray,1,TROG,passpres1u,none,listen-27,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-pres-1-u,The songs are sing by students during the morning break.,NA
+Murray,1,TROG,passpast4u,none,listen-28,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-past-4-u,The homework was check by teachers after every class.,NA
+Murray,1,TROG,distprog1,none,listen-29,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-distprog1,The kids are molding small clay pots as gifts for their parents.,NA
+Murray,1,TROG,passpast2u,none,listen-30,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-past-2-u,The glass was blow by experts at the city workshop.,NA
+Murray,1,TROG,passpast5,none,listen-31,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-past-5,The food was cooked by chefs in the small cafe downtown.,NA
+Murray,1,TROG,progmid7u,none,listen-32,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-mid-7-u,The pilot checked the controls while the plane was fly through the storm.,NA
+Murray,1,TROG,progmid6u,none,listen-33,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-mid-6-u,I measured the walls while he is cutting boards for the shelves.,NA
+Murray,1,TROG,progsimp5u,none,listen-34,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-simp-5-u,The workers building a house beside the river.,NA
+Murray,1,TROG,distprog2u,none,listen-35,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-distprog2u,The chef is slice ripe tomatoes for the large salad in the kitchen.,NA
+Murray,1,TROG,passpres7,none,listen-36,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-pres-7,The music is played by a band inside the old hall.,NA
+Murray,1,TROG,passpres5,none,listen-37,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-pres-5,The fastest player is chosen for an award.,NA
+Murray,1,TROG,distsimp5u,none,listen-38,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-distsimp5u,I will brewed some tea for us on the back porch.,NA
+Murray,1,TROG,passpres8,none,listen-39,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-pres-8,The gifts are wrapped by helpers in colorful paper.,NA
+Murray,1,TROG,passfut6,none,listen-40,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-fut-6,The coins will be kept in the safe with a strong lock. ,NA
+Murray,1,TROG,passfut2u,none,listen-41,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-fut-2-u,The room will be paint by artists for the spring fair.,NA
+Murray,1,TROG,progsimp7u,none,listen-42,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-simp-7-u,The staff are mopping the floors with a new product last night.,NA
+Murray,1,TROG,progsimp1,none,listen-43,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-simp-1,My aunt was baking a chocolate cake for Sunday’s family dinner.,NA
+Murray,1,TROG,progmid1,none,listen-44,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-mid-1,The tourists took photos while she was diving near the reef.,NA
+Murray,1,TROG,progintro8u,none,listen-45,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-intro-8-u,"Once the flowers bloomed, the gardeners trimming the hedges.",NA
+Murray,1,TROG,progintro6u,none,listen-46,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-intro-6-u,"After the supplies arrived, the children are drawing their pictures.",NA
+Murray,1,TROG,passpres4u,none,listen-47,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-pres-4-u,The letters written by hand by the office staff.,NA
+Murray,1,TROG,passfut1u,none,listen-48,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-fut-1-u,The food will be eat by the guests at the party.,NA
+Murray,1,TROG,progsimp6u,none,listen-49,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-simp-6-u,The engineers are fixing the bridge yesterday afternoon.,NA
+Murray,1,TROG,passpast3u,none,listen-50,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-past-3-u,The window broken by a thoughtless boy last night.,NA
+Murray,1,TROG,progmid2,none,listen-51,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-prog-mid-2,The team won the match as the coach was planning their next goal.,NA
+Murray,1,TROG,passpres6,none,listen-52,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-pres-6,The flowers are grown by gardeners behind the school.,NA
+Murray,1,TROG,distsimp4u,none,listen-53,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-distsimp4u,The hikers climbing a ridge before the sky turns red.,NA
+Murray,1,TROG,distsimp6,none,listen-54,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-distsimp6,They shaped wet sand into castles near the low tide.,NA
+Murray,1,TROG,passpast8,none,listen-55,stimulus, ,Correct,"Not Sure, Incorrect",test_response,0.33,l-pass-past-8,The ball was thrown across the yard by the young child.,NA
+Murray,1,TROG,distsub1u,none,listen-56,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-distsub1u,"Before the bell rang, she placing the books on the shelf.",NA
+Murray,1,TROG,passfut4u,none,listen-57,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-fut-4-u,The money spent on school supplies next week.,NA
+Murray,1,TROG,distsub2u,none,listen-58,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-distsub2u,"While the moon rose, she will lit the lamp on the kitchen table.",NA
+Murray,1,TROG,passpres2u,none,listen-59,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-pass-pres-2-u,The fields are plow by farmers with large powerful tractors.,NA
+Murray,1,TROG,progmid8u,none,listen-60,stimulus, ,Incorrect,"Not Sure, Correct",test_response,0.33,l-prog-mid-8-u,I folded the map while she was load bags in the trunk.,NA
+Murray,2,TROG,nullAudio,none,read-practice-1,practice,The grammar of this sentence is good.,Correct,"Not Sure, Incorrect",practice_response,0.33,practice-read-1,NA,NA
+Murray,2,TROG,nullAudio,none,read-practice-2,practice,The grammar of this sentence are bad.,Incorrect,"Not Sure, Correct",practice_response,0.33,practice-read-2,NA,NA
+Murray,2,TROG,nullAudio,none,read-1,stimulus,The glass was blow by experts at the city workshop.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-past-2-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-2,stimulus,The children were finding shells on the beach all afternoon.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-simp-2,NA,NA
+Murray,2,TROG,nullAudio,none,read-3,stimulus,My aunt was baking a chocolate cake for Sunday’s family dinner.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-simp-1,NA,NA
+Murray,2,TROG,nullAudio,none,read-4,stimulus,The elders were telling the story near the glowing fire.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-simp-3,NA,NA
+Murray,2,TROG,nullAudio,none,read-5,stimulus,The news will be reported by hosts on the evening show.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-fut-7,NA,NA
+Murray,2,TROG,nullAudio,none,read-6,stimulus,"Before the bell rang, she placing the books on the shelf.",Incorrect,"Not Sure, Correct",test_response,0.33,distsub1u,NA,NA
+Murray,2,TROG,nullAudio,none,read-7,stimulus,The gifts are wrapped by helpers in colorful paper.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-pres-8,NA,NA
+Murray,2,TROG,nullAudio,none,read-8,stimulus,The food was cooked by chefs in the small cafe downtown.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-past-5,NA,NA
+Murray,2,TROG,nullAudio,none,read-9,stimulus,The food will be eat by the guests at the party.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-fut-1-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-10,stimulus,The rules were follow by everyone in the classroom.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-past-1-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-11,stimulus,The window broken by a thoughtless boy last night.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-past-3-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-12,stimulus,The engineers are fixing the bridge yesterday afternoon.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-simp-6-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-13,stimulus,The workers building a house beside the river.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-simp-5-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-14,stimulus,The car was driven too fast by a careless teenager.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-past-6,NA,NA
+Murray,2,TROG,nullAudio,none,read-15,stimulus,"When the package arrived, she was speaking to her friend.",Correct,"Not Sure, Incorrect",test_response,0.33,prog-intro-3,NA,NA
+Murray,2,TROG,nullAudio,none,read-16,stimulus,The cars will repaired by skilled workers in the afternoon.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-fut-3-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-17,stimulus,The cat hid under the couch while we were waiting for the storm.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-mid-4,NA,NA
+Murray,2,TROG,nullAudio,none,read-18,stimulus,The ball was thrown across the yard by the young child.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-past-8,NA,NA
+Murray,2,TROG,nullAudio,none,read-19,stimulus,The tourists took photos while she was diving near the reef.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-mid-1,NA,NA
+Murray,2,TROG,nullAudio,none,read-20,stimulus,The pilot checked the controls while the plane was fly through the storm.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-mid-7-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-21,stimulus,The staff are mopping the floors with a new product last night.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-simp-7-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-22,stimulus,The neighbors were walking their dogs along the quiet path.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-simp-4,NA,NA
+Murray,2,TROG,nullAudio,none,read-23,stimulus,The chef is slice ripe tomatoes for the large salad in the kitchen.,Incorrect,"Not Sure, Correct",test_response,0.33,distprog2u,NA,NA
+Murray,2,TROG,nullAudio,none,read-24,stimulus,I folded the map while she was load bags in the trunk.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-mid-8-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-25,stimulus,"After the sun rose, the builders were finishing the house.",Correct,"Not Sure, Incorrect",test_response,0.33,prog-intro-2,NA,NA
+Murray,2,TROG,nullAudio,none,read-26,stimulus,The hikers climbing a ridge before the sky turns red.,Incorrect,"Not Sure, Correct",test_response,0.33,distsimp4u,NA,NA
+Murray,2,TROG,nullAudio,none,read-27,stimulus,The fastest player is chosen for an award.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-pres-5,NA,NA
+Murray,2,TROG,nullAudio,none,read-28,stimulus,The gifts will be given to the children tomorrow.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-fut-5,NA,NA
+Murray,2,TROG,nullAudio,none,read-29,stimulus,The kids are molding small clay pots as gifts for their parents.,Correct,"Not Sure, Incorrect",test_response,0.33,distprog1,NA,NA
+Murray,2,TROG,nullAudio,none,read-30,stimulus,She will lifts the basket full of fresh apples.,Incorrect,"Not Sure, Correct",test_response,0.33,distsimp2u,NA,NA
+Murray,2,TROG,nullAudio,none,read-31,stimulus,My cousin will carve a figure from a block of wood.,Correct,"Not Sure, Incorrect",test_response,0.33,distsimp3,NA,NA
+Murray,2,TROG,nullAudio,none,read-32,stimulus,They shaped wet sand into castles near the low tide.,Correct,"Not Sure, Incorrect",test_response,0.33,distsimp6,NA,NA
+Murray,2,TROG,nullAudio,none,read-33,stimulus,"While the moon rose, she will lit the lamp on the kitchen table.",Incorrect,"Not Sure, Correct",test_response,0.33,distsub2u,NA,NA
+Murray,2,TROG,nullAudio,none,read-34,stimulus,She tied the ropes that held the small boat at the dock.,Correct,"Not Sure, Incorrect",test_response,0.33,distsub4,NA,NA
+Murray,2,TROG,nullAudio,none,read-35,stimulus,The children reading their books beneath the shady trees.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-simp-8-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-36,stimulus,I catch small birds near the wooden fence.,Correct,"Not Sure, Incorrect",test_response,0.33,distsimp1,NA,NA
+Murray,2,TROG,nullAudio,none,read-37,stimulus,"Once the flowers bloomed, the gardeners trimming the hedges.",Incorrect,"Not Sure, Correct",test_response,0.33,prog-intro-8-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-38,stimulus,The money spent on school supplies next week.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-fut-4-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-39,stimulus,The kids played inside while she was sewing patches on the coat.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-mid-3,NA,NA
+Murray,2,TROG,nullAudio,none,read-40,stimulus,They shut the gate after the dog ran into the yard.,Correct,"Not Sure, Incorrect",test_response,0.33,distsub3,NA,NA
+Murray,2,TROG,nullAudio,none,read-41,stimulus,"After the storm passed, the workers are beginning the bridge nearby.",Incorrect,"Not Sure, Correct",test_response,0.33,prog-intro-5-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-42,stimulus,The coins will be kept in the safe with a strong lock. ,Correct,"Not Sure, Incorrect",test_response,0.33,pass-fut-6,NA,NA
+Murray,2,TROG,nullAudio,none,read-43,stimulus,The music is played by a band inside the old hall.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-pres-7,NA,NA
+Murray,2,TROG,nullAudio,none,read-44,stimulus,The play was performed by actors on the main stage.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-past-7,NA,NA
+Murray,2,TROG,nullAudio,none,read-45,stimulus,The homework was check by teachers after every class.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-past-4-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-46,stimulus,The fields are plow by farmers with large powerful tractors.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-pres-2-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-47,stimulus,The clothes will be washed by machines with extra soap and water.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-fut-8,NA,NA
+Murray,2,TROG,nullAudio,none,read-48,stimulus,The letters written by hand by the office staff.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-pres-4-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-49,stimulus,"After the rain stopped, the kids swimming in the small pond.",Incorrect,"Not Sure, Correct",test_response,0.33,prog-intro-7-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-50,stimulus,The songs are sing by students during the morning break.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-pres-1-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-51,stimulus,The flowers are grown by gardeners behind the school.,Correct,"Not Sure, Incorrect",test_response,0.33,pass-pres-6,NA,NA
+Murray,2,TROG,nullAudio,none,read-52,stimulus,The room will be paint by artists for the spring fair.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-fut-2-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-53,stimulus,"When the actors finished, the audience was cheering loudly.",Correct,"Not Sure, Incorrect",test_response,0.33,prog-intro-1,NA,NA
+Murray,2,TROG,nullAudio,none,read-54,stimulus,"After the professor explained, the students were taking careful notes.",Correct,"Not Sure, Incorrect",test_response,0.33,prog-intro-4,NA,NA
+Murray,2,TROG,nullAudio,none,read-55,stimulus,He sang out loud while they are clapping to the steady beat.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-mid-5-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-56,stimulus,I measured the walls while he is cutting boards for the shelves.,Incorrect,"Not Sure, Correct",test_response,0.33,prog-mid-6-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-57,stimulus,I will brewed some tea for us on the back porch.,Incorrect,"Not Sure, Correct",test_response,0.33,distsimp5u,NA,NA
+Murray,2,TROG,nullAudio,none,read-58,stimulus,"After the supplies arrived, the children are drawing their pictures.",Incorrect,"Not Sure, Correct",test_response,0.33,prog-intro-6-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-59,stimulus,The windows are clean by workers every afternoon.,Incorrect,"Not Sure, Correct",test_response,0.33,pass-pres-3-u,NA,NA
+Murray,2,TROG,nullAudio,none,read-60,stimulus,The team won the match as the coach was planning their next goal.,Correct,"Not Sure, Incorrect",test_response,0.33,prog-mid-2,NA,NA
