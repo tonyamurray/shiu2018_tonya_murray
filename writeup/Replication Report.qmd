@@ -1,0 +1,499 @@
+---
+title: "Replication of Exploring second language learners’ grammaticality
+judgment performance in relation to task design features by Shiu, Yalçın, & Spada (2018, System)"
+author: "Replication Author: Tonya Murray (tonyamur@stanford.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc_depth: 3
+bibliography: references.bib
+---
+
+## Introduction
+
+This study replicated "Exploring second language learners’ grammaticality judgment performance in relation to task design features" [@shiu2018; @shiu2018a]*.* The original study was an investigation into whether two dimensions of modality (timed/untimed and aural/written) of a grammaticality judgement task (GJT) affected the performance of adult English language learners on two grammatical features of English (passive voice and past progressive tense). The study recruited 120 adult English-as-a-foreign-language (EFL) learners from one university in Taiwan. Participants were asked to judge items as grammatical or ungrammatical on four computer-based GJTs (two differed on the timed/untimed dimension and two differed on the aural/written dimension). Each GJT consisted of 60 items (30 grammatical and 30 ungrammatical). The study was conducted in two sessions one week apart. At each session, participants took two GJT with a 30 minute break between them. The items were written in either the passive voice or used the past progressive tense, features which were hypothesized to differ in terms of their learning difficulty. The results showed significant differences in performance with respect to all three variables: time constraint, modality, and grammatical feature. Although learners performed better on past progressive items, the GJT performance across both grammatical features showed similar patterns in relation to task design features.
+
+I chose this study because it relates to my research that uses a digital adaptation of the Test for Reception of Grammar [@bishop1992], an assessment of implicit English syntax knowledge. Preliminary results suggest that performance on this measure improves as L2 students in grades 2-5 gain proficiency in English. While the current task uses aural prompts with picture answers, I am interested in comparing aural and written modalities on the task. I am also interested in investigating additional English features (such as tense) that are better suited to written stimuli instead of pictorial stimuli, and in extending the measure to adolescent and adult learners.
+
+The key features needed to implement a GJT are available on the Rapid Online Assessment of Reading (ROAR) platform [@yeatman2021]: jsPsych infrastructure for playing audio clips, displaying written stimuli, recording keyboard responses, and storing the responses to a database. Because the author did not respond to a request for the original stimuli, the biggest challenges were creating the item stimuli and recruiting participants who are L2 English learners. A large language model was used to assist with item creation. In order to reduce the time required for the replication, only two GJT (comparing the aural/written condition) were included in the replication, with a minimal break between them.
+
+Repository: [murray2025](https://github.com/tonyamurray/murray2025 "Github repository for GJT replication study")\
+Original paper: [Exploring second language learners’ grammaticality judgment performance in relation to task design features (Shiu, Yalçın, & Spada, 2018)](https://github.com/tonyamurray/murray2025/tree/6465a88fae8729b36fcfb5408002b70e76e07f75/original_paper "(Shiu, Yalçın, & Spada, 2018)")
+
+## Methods
+
+### Power Analysis
+
+G\*Power was used to perform a power analysis. The correlation reported in the original study was between untimed auditoy (AGJT) and untimed written (WGJT) was (r=0.86). Table 1 of the original paper gave the mean and standard deviation for the score in the untimed auditory condition (untimed AGJT: mean = 32.27, sd = 5.79) and untimed written condition (untimed WGJT: mean = 39.02, sd = 6.09). From these numbers, the effect size was computed by G\*Power to be 2.13.
+
+Using a two-tailed T-test, the sample size required for 95% power with alpha = 0.01 was computed to be 8 (actual power = 0.973). A planned sample of 20 participants was deemed to be conservative.
+
+### Planned Sample
+
+<!-- Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any. -->
+
+Twenty participants were recruited from Prolific. The inclusion criteria specified that participants should speak Mandarin as a first language and English as a second language.
+
+### Materials
+
+The original study specified the following stimuli design, "The timed aural GJT (AGJT) consists of 60 items, with 24 targeting the passive construction, 24 targeting the past progressive, and 12 distractors targeting other grammatical features. The passive items vary in terms of length (10-14 syllables, with an average of 11.96 syllables), accuracy (12 grammatical and 12 ungrammatical), and tense (8 present, 8 past, 8 present perfect). The passive items are all simple sentences. The passive items include 12 regular verbs and 12 irregular verbs. The ungrammatical items focus on two types of errors: omitting auxiliary verb be (e.g., Every year, many children reported missing.), and using the bare form of the verb instead of past participle (e.g., The taxi has been park at the airport for three months.). With reference to verb types (regular vs. irregular), the error types of the passive items can be divided into four categories abbreviated as: (a) regular be, (b) regular participle, (c) irregular be, and (d) irregular participle. The 24 past progressive items are also evenly divided between grammatical and ungrammatical sentences. In order to address differences in lexical aspect (Vendler, 1967), 12 items included verbs of accomplishment and 12 included verbs of activity. The length of the past progressive items ranged between 12 and 16 syllables, with an average length of 13.46 syllables. Twelve items are grammatical, while the other 12 are ungrammatical items, targeting two error types: (1) missing auxiliary (e.g. While the girl sitting outside, it started raining), and (2) present auxiliary (e.g., She is reading a book at 4 yesterday afternoon). Sixteen of the past progressive items consist of subordinate clauses that indicate the action taking place at a certain time in the past (e.g., When I met my husband, I was traveling in France.), whereas the rest 8 sentences are simple sentences. The differences between the two target features are taken into consideration in the analysis of the data discussed below." For the written portion of the test the authors note, "The timed written GJT (WGJT) is virtually identical to the timed aural GJT except it was delivered in the written mode."
+
+For the replication study, a chatGPT website (GPT-5.1) was used to create sentences similar to those described in the original paper. Example prompts are shown in figure TBD. A separate prompt was used for each group of sentences listed in table TBD. From the 20 sentences generated for each group, the replication author selected 8, ensuring that both regular and irregular verbs were represented. The author made 4 of these sentences ungrammatical by applying the error categories described in the original paper. This procedure was repeated for each tense in the passive voice (past, present, and future) and then for simple and complex sentences in the past progressive tense. After generating, selecting, and editing the target sentences, the author reviewed the stimuli list as a whole to ensure that verbs and subjects were not repeated.
+
+The original paper did not describe the 12 distractor sentences, so the replication author used chatGPT prompts to make 6 active simple sentences (2 each for past, present, and future tense), 2 complex sentences with an introductory subordinate clause and an active past tense main clause, 2 complex sentences with an active past tense main clause and an embedded relative clause, and 2 simple sentences in the progressive present tense. The original paper did not say whether or not the distractors included ungrammatical sentences. The replication author chose to make one sentence in each pair of distractors ungrammatical.
+
+| Group | Voice | Tense of main clause | Type of subordinate clause | Number |
+|-------------------|--------------|--------------|--------------|--------------|
+| passive-past | passive | past | n/a | 8 |
+| passive-present | passive | present | n/a | 8 |
+| passive-future | passive | future | n/a | 8 |
+| progressive-simple | active | past progressive | n/a | 8 |
+| progressive-complex-intro | active | past progressive | introductory | 8 |
+| progressive-complex-middle | active | past progressive | embedded relative | 8 |
+| distractor | active | past | n/a | 2 |
+| distractor | active | present | n/a | 2 |
+| distractor | active | future | n/a | 2 |
+| distractor | active | present progressive | n/a | 2 |
+| distractor | active | past | introductory | 2 |
+| distractor | active | past | embedded relative | 2 |
+
+### Procedure
+
+#### Original Procedure
+
+This is the procedure from the original paper:
+
+"The timed AGJT was administered first followed by the timed WGJT. There was a 30-min interval between the administrations of the two tests. One week after the participants completed the timed GJTs, they completed the untimed AGJT followed by the untimedWGJT. There was also a 30-min interval between the administrations of the two tests. The AGJT was administered before the WGJT because it was assumed that the aural stimuli were more transitory than the written stimuli. Therefore, administering the AGJT before the WGJT would decrease the possibility of memory effect. All tests were administered during regular class hours.
+
+"The untimed aural GJT was the same as the timed aural GJT except that there were no time constraints for learners' responses. The participants could take their time to respond and to listen to the item repeatedly if they felt necessary before responding. Because in the untimed written GJT, the participants were able to read a sentence more than once, to make the task demands of both untimed GJTs more parallel, repetitive listening was also allowed in the untimed aural GJT. The frequency of repeatedly listening to the sentence was recorded. The directions for the untimed AGJT were “After you hear the sentence, please choose ‘Correct,’ ‘Incorrect, or ‘Not Sure.’ If you would like to hear the sentence again, press ‘Listen Again.’ You can take as much time as you need to make your decision.” After the learner responded, the next question automatically appeared.
+
+"The untimed written GJT is the same as the timed WGJT except that there are no time constraints for learners’ responses. The directions for the untimed WGJT were “You can take as much time as you need to make your choice."
+
+#### Replication Procedure
+
+An app from an online assessment platform (ROAR, [@yeatman2021] ) was modified to present auditory and written prompts for the replication study. The Prolific survey included a link to the app.
+
+The first screen displayed instructions unique to the replication study, "This is a test of grammar knowledge. Use the arrow keys to enter your answers. Please answer using your own knowledge, do not consult the web or any references."
+
+The next screen contained written instructions that were modeled on language contained in original paper, "Listen to each sentence. Your task is to decide whether the grammar of the sentence is correct or incorrect. After you hear the sentence, please choose Correct, Incorrect, or Not Sure. If you would like to hear the sentence again, click on the Listen Again button. You can take as much time as you need to make your decision."
+
+The auditory task began with two practice sentences intended to familiarize the participant with the response choices. An audio clip played "The grammar of this sentence is good," in the first practice trial and "The grammar of this sentence are bad." in the second practice trial. A button labeled "Listen Again" was at the center of the screen, with buttons labelled "Not sure", "Incorrect", or "Correct" below it. Each button was labelled with an arrow (pointing up, left, and right, respectively, Figure TBD). While participants were instructed to use the arrow keys, due to limitations of the implementation it was also possible to use a mouse to select answers.
+
+In the practice trials, if the correct answer was chosen it was highlighted in green and then the next trial appeared. If "Not Sure" or the incorrect answer was chosen, it was highlighted in red, and the trial remained on the screen until the correct answer was chosen.
+
+After the practice sentences, the participant was presented with 60 auditory items in a fixed order. Next the instructions for the written task (modeled on the original instructions) were displayed, "Read each sentence. Your task is to decide whether the grammar of the sentence is correct or incorrect. After you read the sentence, please choose Correct, Incorrect, or Not Sure. You can take as much time as you need to make your choice."
+
+The written task began with the same practice sentences. These were displayed on the screen just above the choices (Figure TBD). The main part of the task presented the same 60 sentences, in written format, in a different fixed order. While the Listen Again button was visible, pressing it did not play any audio.
+
+### Analysis Plan
+
+#### Original Analysis
+
+The original paper conducted the following analysis: "The four GJTs were scored in terms of accuracy, with 1 point for a correct response and 0 point for incorrect and no response. The maximum score for each GJT was 48. The option “Not sure” was considered to be incorrect. “No response” items accounted for 13% and 18% of all the responses to the timed AGJT and timed WGJT respectively. The reliability of the four GJTs was calculated based on the 120 EFL students' data, using Cronbach's alpha. The reliability coefficients of the timed AGJT, timed WGJT, untimed AGJT, and untimed WGJT were 0.80, 0.87, 0.81, and 0.86, respectively. Descriptive statistics of the EFL participants were calculated for the four GJTs. \[...\] Bivariate correlations were also computed to examine the relationships among the grammatical and ungrammatical items of the four GJTs. Repeated-measures ANOVA tests were performed on the 120 EFL learner data. Given that the items of the two target features are not identical in terms of their length, error types and sentence pattern (i.e., simple versus complex), the bivariate correlations and the repeated-measures ANOVA tests were conducted separately for the passive structure and the past progressive structure. The participants' GJT performance was also examined in relation to the different error types included in the ungrammatical items of the two target features."
+
+#### Replication Analysis 
+
+The auditory and written GJT were scored for accuracy, with 1 point for a correct response and 0 point for incorrect and "Not Sure" response. The maximum score for each GJT is 48. The mean and standard deviation for the participants were computed for each combination of modality (auditory/written), grammaticality (grammatical/ungrammatical), and feature (passive/past progressive). Pearson correlations were computed between modalities for all items, for passive items only, and for past progressive items only.
+
+ANOVA tests examined modality, grammaticality, and modality\*grammaticality interaction on all items, on passive items only, and on past progressive items only.
+
+(Note: In the event of a significant discrepancy in findings, the replication author will drop the future tense passive items, compute a scaled adjusted score using the just the past and present tense passive items, and repeat the analyses.)
+
+### Differences from Original Study
+
+Where the original study included 4 tasks for a 2x2 contrast of timed/untimed and auditory/written conditions, the replication only included 2 the untimed tasks for a auditory/written contrast.
+
+The original study was conducted in university classrooms and included a 30 minute break between the auditory and written conditions. The replication study was conducted on Prolific and did not have a break between conditions. Two beta testers in the replication study reported that they noticed sentences being repeated between the conditions, which may have made their responses more similar than they would be with a longer break.
+
+The app used in the original study only accepted keyboard responses, while the replication app allowed both keyboard and mouse responses. Because the scoring is only computed on accuracy, not on response time, the additional response method is expected to have little effect on the results.
+
+The stimuli for the replication study were created by the replication author based on descriptions in the original paper. The original study included 8 passive sentences in the present perfect tense, while the replication study instead included 8 passive sentences in the future tense. This difference in stimuli was unintentional and was discovered while analyzing pilot test results. Due to time constraints, the author chose not to revise these sentences. The difference in difficulty between these tenses is not known and may affect the score on the passive sentences.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+
+Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+
+Any differences from what was described as the original plan, or “none”.
+
+## Results
+
+### Data preparation
+
+Data preparation following the analysis plan.
+
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+library(tidyverse)
+library(data.table)
+library(knitr)
+library(kableExtra)
+library(psych)
+library(purrr)
+library(afex)
+library(papaja)
+
+#### Import data
+df_runs <- read.csv("../data/2025-11-21_gjt_runs_trimmed.csv")
+df_trials_raw <- read.csv("../data/2025-11-21_gjt_trials_trimmed.csv")
+
+#### Data exclusion / filtering
+
+```
+
+```{r}
+#### Prepare data for analysis - create columns etc.
+df_trials_all <- df_trials_raw %>% 
+  mutate(modality = ifelse(grepl("^l-",item_id), "auditory", "written"),
+         grammar = ifelse(grepl("u$",item_id), "grammatical", "ungrammatical"),
+         feature = case_when(
+                        grepl("dist", item_id) ~ "distractor",
+                        grepl("practice", item_id) ~ "practice",
+                        grepl("pass", item_id) ~ "passive",
+                        grepl("prog", item_id) ~ "progressive",                        TRUE ~ NA_character_  # fallback if none match
+                      )
+         )
+
+df_trials_target <- df_trials_all %>% 
+  filter((feature == "passive") | (feature == "progressive"))
+```
+
+```{r}
+
+df_scores <- df_trials_target %>%
+  # Sum correct by assessment_pid and modality
+  group_by(assessment_pid, modality) %>%
+  summarise(score_modality = sum(correct, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = modality, values_from = score_modality, names_prefix = "modality_") %>%
+  
+  # Join grammar scores
+  left_join(
+    df_trials_target %>%
+      group_by(assessment_pid, grammar) %>%
+      summarise(score_grammar = sum(correct, na.rm = TRUE), .groups = "drop") %>%
+      pivot_wider(names_from = grammar, values_from = score_grammar, names_prefix = "grammar_"),
+    by = "assessment_pid"
+  ) %>%
+  
+  # Join feature scores
+  left_join(
+    df_trials_target %>%
+      group_by(assessment_pid, feature) %>%
+      summarise(score_feature = sum(correct, na.rm = TRUE), .groups = "drop") %>%
+      pivot_wider(names_from = feature, values_from = score_feature, names_prefix = "feature_"),
+    by = "assessment_pid"
+  )
+
+```
+
+```{r}
+check_count <- df_trials_target %>% 
+  group_by(modality, grammar, feature) %>% 
+  summarize(n=n())
+```
+
+```{r}
+
+dt <- as.data.table(df_trials_target)
+
+# First, aggregate by participant and combinations
+temp_agg <- dt[, .(score = sum(correct, na.rm = TRUE)), by = .(assessment_pid, modality, grammar, feature)]
+
+# Compute totals for each combination of pid, modality, grammar
+temp_feature_totals <- temp_agg %>%
+  group_by(assessment_pid, modality, grammar) %>%
+  summarise(score = sum(score, na.rm = TRUE), .groups = "drop") %>%
+  mutate(feature = "total")  # assign "total" as feature
+
+# Compute totals for each combination of pid, modality, feature
+temp_grammar_totals <- temp_agg %>%
+  group_by(assessment_pid, modality, feature) %>%
+  summarise(score = sum(score, na.rm = TRUE), .groups = "drop") %>%
+  mutate(grammar = "total")  # assign "total" as grammar
+
+# Compute totals for each combination of pid, modality
+temp_modality_totals <- temp_agg %>%
+  group_by(assessment_pid, modality) %>%
+  summarise(score = sum(score, na.rm = TRUE), .groups = "drop") %>%
+  mutate(feature = "total", # assign "total" as feature
+         grammar = "total")  # assign "total" as feature
+
+# Combine totals with the original data
+temp_agg_with_total <- bind_rows(temp_agg, temp_feature_totals) %>%
+  bind_rows(temp_grammar_totals) %>%
+  bind_rows(temp_modality_totals) %>%
+  arrange(assessment_pid, modality, grammar, feature)
+
+
+# Then, cast into wide format
+scores_wide <- dcast(
+  temp_agg_with_total,
+  assessment_pid ~ modality + grammar + feature,
+  value.var = "score",
+  fill = 0  # or NA, depending on what you want
+)
+
+
+# Compute mean and SD for all score columns
+score_summary <- scores_wide %>%
+  select(-assessment_pid) %>%  # exclude the ID column
+  summarise(
+    across(everything(),
+           list(mean = ~mean(.x, na.rm = TRUE),
+                sd   = ~sd(.x, na.rm = TRUE)))
+  )
+
+
+```
+
+```{r}
+# Round all numeric columns first
+score_summary_rounded <- score_summary %>%
+  mutate(across(everything(), ~round(.x, 2)))
+
+# Convert to long format
+score_long <- score_summary_rounded %>%
+  pivot_longer(
+    cols = everything(),
+    names_to = c("modality", "grammar", "feature", "stat"),
+    names_sep = "_"
+  ) %>%
+  pivot_wider(
+    names_from = stat, 
+    values_from = value
+  ) %>%
+  mutate(mean_sd = paste0(mean, " (", sd, ")"))
+
+# Create row labels dynamically
+score_long <- score_long %>%
+  mutate(Row = paste(
+    tools::toTitleCase(modality),
+    ifelse(grammar == "total", "Total", tools::toTitleCase(grammar))
+  ))
+
+# Pivot wider to get features as columns
+summary_table <- score_long %>%
+  select(Row, feature, mean_sd) %>%
+  pivot_wider(names_from = feature, values_from = mean_sd)
+# 
+
+
+# Reorder columns: put "total" first
+summary_table <- summary_table %>%
+  select(Row, total, passive, progressive) %>%  # reorder
+  rename(
+    Total = total,
+    Passive = passive,
+    `Past Progressive` = progressive
+  )
+
+# Reorder rows: put the "Total" row before Grammatical and Ungrammatical
+desired_order <- c(
+  "Auditory Total", "Auditory Grammatical", "Auditory Ungrammatical",
+  "Written Total", "Written Grammatical", "Written Ungrammatical"
+)
+
+summary_table <- summary_table %>%
+  arrange(factor(Row, levels = desired_order)) 
+
+
+```
+
+```{r}
+# Create kable with kableExtra styling
+means_table <- kable(
+  summary_table,
+  format = "html",                 # Use "html" for notebooks; "latex" in PDF
+  caption = "Mean (SD) scores by modality, grammar status, and verb form",
+  align = "lccc"
+) %>%
+  kable_styling(
+    full_width = FALSE,            # Keep table compact
+    position = "center",           # Center table in the page
+    bootstrap_options = c("striped", "hover")  # Add striped rows and hover effect
+  ) %>%
+  column_spec(1, width = "10em") %>%   # widen first column (Row)
+  column_spec(2:4, width = "6em")      # widen other columns for spacing
+```
+
+```{r}
+corr_table <- function(data, adjust = "none", caption = "Correlation Matrix with Significance Stars") {
+  # Run correlation test
+  ct <- psych::corr.test(data, adjust = adjust)
+  
+  # Extract correlation and p-values
+  r_mat <- ct$r
+  p_mat <- ct$p
+  
+  # Significance star function
+  stars <- function(p) {
+    ifelse(p < .001, "***",
+      ifelse(p < .01, "**",
+        ifelse(p < .05, "*", "")
+      )
+    )
+  }
+  
+  # ---- Set diagonal and upper triangle to NA ----
+  r_mat[upper.tri(r_mat, diag = TRUE)] <- NA
+
+  # Create formatted matrix, preserving original structure
+  r_formatted <- matrix(
+    ifelse(is.na(r_mat), " ", sprintf("%.3f%s", r_mat, stars(p_mat))),
+    nrow = nrow(r_mat),
+    ncol = ncol(r_mat),
+    dimnames = dimnames(r_mat)
+  )
+  
+  # Return nicely formatted kable table
+  knitr::kable(r_formatted, caption = caption) %>%
+    kableExtra::kable_styling(full_width = FALSE)
+}
+
+```
+
+```{r}
+modality_scores_wide <- scores_wide %>% 
+  select("Auditory" = auditory_total_total, 
+         "Written" = written_total_total)
+
+corr_modality <- corr_table (modality_scores_wide, 
+            adjust = "none", caption = "Item Correlation by Modality")
+```
+
+```{r}
+passive_scores_wide <- scores_wide %>% 
+  select("Auditory Grammatical" = "auditory_grammatical_passive", 
+         "Auditory Ungrammatical" = "auditory_ungrammatical_passive",  
+         "Written Grammatical" = "written_grammatical_passive",
+         "Written Ungrammatical" = "written_ungrammatical_passive") 
+
+corr_passive <- corr_table (passive_scores_wide, 
+            adjust = "none", caption = "Passive Item Correlations")
+```
+
+```{r}
+progressive_scores_wide <- scores_wide %>% 
+  select("Auditory Grammatical" = "auditory_grammatical_progressive", 
+         "Auditory Ungrammatical" = "auditory_ungrammatical_progressive",  
+         "Written Grammatical" = "written_grammatical_progressive",
+         "Written Ungrammatical" = "written_ungrammatical_progressive") 
+
+corr_progressive <- corr_table (progressive_scores_wide, 
+            adjust = "none", caption = "Past Progressive Item Correlations")
+```
+
+```{r}
+# Function to run repeated-measures ANOVA and create APA-style table
+create_apa_anova_table <- function(data, caption,
+                                   id_col = "assessment_pid",
+                                   dv_col = "mg_score",
+                                   within_factors = c("modality", "grammaticality")) {
+  
+  # Run repeated-measures ANOVA
+  anova_result <- aov_ez(
+    id = id_col,
+    dv = dv_col,
+    data = data,
+    within = within_factors
+  )
+  
+  # Extract ANOVA table
+  apa_table_df <- as.data.frame(anova_result$anova_table) %>%
+    mutate(
+      F = round(F, 2),
+      p_value = round(`Pr(>F)`, 3),
+      eta = round(ges, 2)
+    ) %>%
+    select(F, eta, p_value) %>%
+    # Add significance stars
+    mutate(
+      sig = case_when(
+        p_value < .001 ~ "***",
+        p_value < .01  ~ "**",
+        p_value < .05  ~ "*",
+        TRUE           ~ ""
+      )
+    )
+  
+  # Create APA-style table
+  kable(
+    apa_table_df,
+    caption = caption,
+    col.names = c("", "F", "η²p", "p", "Significance"),
+    align = c("l", "c", "c", "c", "c"),
+    digits = 2,
+    booktabs = TRUE
+  ) %>%
+    kable_styling(full_width = FALSE, position = "center") %>%
+    row_spec(0, bold = TRUE)
+}
+```
+
+```{r}
+
+scores_modality_grammar <- temp_agg %>% 
+  rename(grammaticality = grammar) %>% 
+  group_by(assessment_pid, modality, grammaticality) %>% 
+  summarise(mg_score=sum(score))
+
+anova_modality_grammar <- create_apa_anova_table(
+  data = scores_modality_grammar,
+  caption = "Repeated Measures ANOVA (modality × grammaticality)",
+  dv_col = "mg_score",
+  within_factors = c("modality", "grammaticality")
+)
+
+
+
+```
+
+```{r}
+scores_modality_feature <- temp_agg %>% 
+  group_by(assessment_pid, modality, feature) %>% 
+  summarise(mf_score=sum(score))
+
+anova_modality_feature <- create_apa_anova_table(
+  data = scores_modality_feature,
+  caption = "Repeated Measures ANOVA (modality × feature)",
+  dv_col = "mf_score",
+  within_factors = c("modality", "feature")
+)
+
+
+```
+
+### Confirmatory analysis
+
+<!-- The analyses as specified in the analysis plan. Side-by-side graph with original graph is ideal here   -->
+
+```{r}
+means_table
+corr_modality
+corr_passive
+corr_progressive
+anova_modality_grammar
+anova_modality_feature
+```
+
+### Exploratory analyses
+
+Any follow-up analyses desired (not required).
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt. None of these need to be long.
