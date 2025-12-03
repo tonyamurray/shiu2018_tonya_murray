@@ -18,7 +18,7 @@ I chose this study because it relates to my research that uses a digital adaptat
 
 The key features needed to implement a GJT are available on the Rapid Online Assessment of Reading (ROAR) platform [@yeatman2021]: jsPsych infrastructure for playing audio clips, displaying written stimuli, recording keyboard responses, and storing the responses to a database. Because the author did not respond to a request for the original stimuli, the biggest challenges were creating the item stimuli and recruiting participants who are L2 English learners. A large language model was used to assist with item creation. In order to reduce the time required for the replication, only two GJT (comparing the aural/written condition) were included in the replication, with a minimal break between them.
 
-Repository: [murray2025](https://github.com/tonyamurray/murray2025 "Github repository for GJT replication study")\
+Repository: [https://github.com/tonyamurray/shiu2018_tonya_murray](https://github.com/tonyamurray/shiu2018 "Github repository for GJT replication study")\
 Original paper: [Exploring second language learners’ grammaticality judgment performance in relation to task design features (Shiu, Yalçın, & Spada, 2018)](https://github.com/tonyamurray/murray2025/tree/6465a88fae8729b36fcfb5408002b70e76e07f75/original_paper "(Shiu, Yalçın, & Spada, 2018)")
 
 ## Methods
@@ -44,7 +44,7 @@ For the replication study, a chatGPT website (GPT-5.1) was used to create senten
 The original paper did not describe the 12 distractor sentences, so the replication author used chatGPT prompts to make 6 active simple sentences (2 each for past, present, and future tense), 2 complex sentences with an introductory subordinate clause and an active past tense main clause, 2 complex sentences with an active past tense main clause and an embedded relative clause, and 2 simple sentences in the progressive present tense. The original paper did not say whether or not the distractors included ungrammatical sentences. The replication author chose to make one sentence in each pair of distractors ungrammatical.
 
 | Group | Voice | Tense of main clause | Type of subordinate clause | Number |
-|-------------------|--------------|--------------|--------------|--------------|
+|---------------|---------------|---------------|---------------|---------------|
 | passive-past | passive | past | n/a | 8 |
 | passive-present | passive | present | n/a | 8 |
 | passive-future | passive | future | n/a | 8 |
@@ -92,7 +92,7 @@ The written task began with the same practice sentences. These were displayed on
 
 The original paper conducted the following analysis: "The four GJTs were scored in terms of accuracy, with 1 point for a correct response and 0 point for incorrect and no response. The maximum score for each GJT was 48. The option “Not sure” was considered to be incorrect. “No response” items accounted for 13% and 18% of all the responses to the timed AGJT and timed WGJT respectively. The reliability of the four GJTs was calculated based on the 120 EFL students' data, using Cronbach's alpha. The reliability coefficients of the timed AGJT, timed WGJT, untimed AGJT, and untimed WGJT were 0.80, 0.87, 0.81, and 0.86, respectively. Descriptive statistics of the EFL participants were calculated for the four GJTs. \[...\] Bivariate correlations were also computed to examine the relationships among the grammatical and ungrammatical items of the four GJTs. Repeated-measures ANOVA tests were performed on the 120 EFL learner data. Given that the items of the two target features are not identical in terms of their length, error types and sentence pattern (i.e., simple versus complex), the bivariate correlations and the repeated-measures ANOVA tests were conducted separately for the passive structure and the past progressive structure. The participants' GJT performance was also examined in relation to the different error types included in the ungrammatical items of the two target features."
 
-#### Replication Analysis 
+#### Replication Analysis
 
 The auditory and written GJT were scored for accuracy, with 1 point for a correct response and 0 point for incorrect and "Not Sure" response. The maximum score for each GJT is 48. The mean and standard deviation for the participants were computed for each combination of modality (auditory/written), grammaticality (grammatical/ungrammatical), and feature (passive/past progressive). Pearson correlations were computed between modalities for all items, for passive items only, and for past progressive items only.
 
@@ -142,8 +142,8 @@ library(afex)
 library(papaja)
 
 #### Import data
-df_runs <- read.csv("../data/2025-11-21_gjt_runs_trimmed.csv")
-df_trials_raw <- read.csv("../data/2025-11-21_gjt_trials_trimmed.csv")
+df_runs <- read.csv("../data/2025-12-02_gjt_runs_trimmed.csv")
+df_trials_raw <- read.csv("../data/2025-12-02_gjt_trials_trimmed.csv")
 
 #### Data exclusion / filtering
 
